@@ -10,7 +10,7 @@ namespace INADevOps2
         {
             Console.WriteLine("Hello World!");
             Program p = new Program();
-            Console.Write("EScribe tu nombre ");
+            Console.Write("EScribe tu nombreS ");
             string n = Console.ReadLine();
             p.Transformar(n);
             Console.WriteLine("El nombre tuyo es {0} ", p.Transformado);
